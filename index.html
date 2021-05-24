@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends</title>
+  </head>
+  <body>
+    <section>
+      <header>
+      <a href="#" class="logo">Friends.</a>
+      <div class="toggle" onclick="menuToggle();">
+        </div>
+      </header>
+      <div class="glass"></div>
+<div class="content">
+  <h2>With <br><br><span> Friends Help.</span></h2>
+</div>
+
+      <video src="water.mp4" autoplay muted loop></video>
+      <ul class="sci">
+      <li class="--i:1"><a href="#">Facebook</a></li>
+      <li class="--i:2"><a href="#">Instagram</a></li>
+      </ul>
+      <ul class="navigation">
+      <li class="--i:1"><a href="#">Home</a></li>
+      <li class="--i:2"><a href="#">About Us</a></li>
+      <li class="--i:3"><a href="#">Contact</a></li> 
+      </ul>
+      </section>
+
+
+<script type="text/javascript">
+  function menuToggle() {
+const toggleMenu = document.querySelector('.toggle');
+const section = document.querySelector('section');
+toggleMenu.classList.toggle('active');
+section.classList.toggle('active');
+  }
+
+</script>
+  </body>
+</html>
